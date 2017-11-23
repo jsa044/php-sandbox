@@ -3,7 +3,7 @@
 //Connect to MySQL
 $con = mysqli_connect("localhost", "root", "", "shoutit");
 
-//Test Connection
+//Test Connection for errors
 
 if(mysqli_connect_errno()) {
 	
