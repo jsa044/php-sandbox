@@ -5,6 +5,8 @@ $con = mysqli_connect("localhost", "root", "", "shoutit");
 
 //Test Connection for errors
 
+
+
 if(mysqli_connect_errno()) {
 	
 	
