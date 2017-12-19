@@ -6,7 +6,7 @@
  <?php
    //Create Select Query
    
-   $query= 'SELECT * FROM shouts ORDER BY id DESC';
+   $query= 'SELECT * FROM shouts ORDER BY id ';
     $shouts=mysqli_query($con, $query);
  
  ?>
